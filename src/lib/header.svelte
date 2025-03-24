@@ -24,8 +24,6 @@
 <script>
   import Torch from "./torch.svelte"
 
-
-
   onMount(() => {
     initStars()
   })
@@ -51,7 +49,7 @@
   }
 </script>
 
-<div class="container" style="animation-name: sparkling;">
+<div class="container">
   <div class='header-container'>
     <Torch />
   </div>
